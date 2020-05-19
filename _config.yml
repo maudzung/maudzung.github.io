@@ -22,7 +22,7 @@ description: Machine Learning Engineer
 navbar-links:
   About Me: "aboutme"
   Projects:
-    - Self-driving Car:
+    - Self-driving Car: ""
         - Finding LaneLines: "https://github.com/maudzung/Self-Driving-Car-01-Finding-Lanelines"
         - Advance Finding Lanelines: "https://github.com/maudzung/Self-Driving-Car-02-Advance-Finding-Lanelines"
         - Traffic Sign Classifier: "https://github.com/maudzung/Self-Driving-Car-03-Traffic-Sign-Classifier"
