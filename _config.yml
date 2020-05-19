@@ -22,10 +22,17 @@ description: Machine Learning Engineer
 navbar-links:
   About Me: "aboutme"
   Projects:
-    - 3D Joint Angle Estimation
-    - Human Pose Estimation
-    - Gait Analysis
-    - WoT on Raspberry Pi
+    - Self-driving Car:
+        - Finding LaneLines: "https://github.com/maudzung/Self-Driving-Car-01-Finding-Lanelines"
+        - Advance Finding Lanelines: "https://github.com/maudzung/Self-Driving-Car-02-Advance-Finding-Lanelines"
+        - Traffic Sign Classifier: "https://github.com/maudzung/Self-Driving-Car-03-Traffic-Sign-Classifier"
+        - Behavior Clonning: "https://github.com/maudzung/Self-Driving-Car-04-Behavior-Cloning"
+        - Extended Kalman Filter: "https://github.com/maudzung/Extended-Kalman-Filter-CPP"
+        - Kidnapped Vehicle using Particle Filters: "https://github.com/maudzung/Self-Driving-Car-06-Kidnapped-Vehicle-Particle-Filters"
+        - Path Planning on Highway: "https://github.com/maudzung/Self-Driving-Car-07-Path-Planning-CPP"
+        - PID controller: "https://github.com/maudzung/Self-Driving-Car-08-PID-Control-CPP"
+    - 3D Joint Angle Estimation: ""
+    - Gait Analysis: "https://drive.google.com/file/d/1VS8qrxYLrol4G6kHqGiMZwU7GO2REvLT/view?usp=sharing"
   Resources:
     - Jekyll Theme: "https://jekyllthemes.io/"
     - Learn markdown: "http://www.markdowntutorial.com/"
