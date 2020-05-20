@@ -11,16 +11,16 @@ classical Computer Vision algorithms. The original repository is [CarND-LaneLine
 
 My pipeline consisted of 6 steps. <br>
 1. I applied 2 color filters that return two masks corresponding to 2 colors of lane lines in videos: white and yellow. <br>
-![filter_2_colors](./img/Self_driving_Car_P1_Finding_Lanelines/solidYellowCurve2_rangedcolor.jpg)
+![filter_2_colors](../img/Self_driving_Car_P1_Finding_Lanelines/solidYellowCurve2_rangedcolor.jpg)
 2. I converted the images to grayscale. <br>
-![grayscale](./img/Self_driving_Car_P1_Finding_Lanelines/solidYellowCurve2_gray.jpg)
+![grayscale](../img/Self_driving_Car_P1_Finding_Lanelines/solidYellowCurve2_gray.jpg)
 3. I smoothed the gray image by using a Gaussian filter with a kernel size of 5. <br>
-![smoothed](./img/Self_driving_Car_P1_Finding_Lanelines/solidYellowCurve2_blur.jpg)
+![smoothed](../img/Self_driving_Car_P1_Finding_Lanelines/solidYellowCurve2_blur.jpg)
 4. I used the Canny algorithm to detect edges in the blurred image with the parameters: low_threshold=50, high_threshold=150.
-![Canny](./img/Self_driving_Car_P1_Finding_Lanelines/solidYellowCurve2_canny.jpg)
+![Canny](../img/Self_driving_Car_P1_Finding_Lanelines/solidYellowCurve2_canny.jpg)
 5. I defined four vertices in the image, then use cv2.fillPoly() function to find the RoI bounded by the defined vertices. <br>
 6. I used the Hough transform algorithm to detect lines. <br>
-![Hough](./img/Self_driving_Car_P1_Finding_Lanelines/solidYellowCurve2_output_segment.jpg)
+![Hough](../img/Self_driving_Car_P1_Finding_Lanelines/solidYellowCurve2_output_segment.jpg)
 
 In order to draw a single line on the left and right lanes, I add a new function *draw_lines_extrapolate()*. 
 This task included 5 steps:
@@ -34,7 +34,7 @@ This task included 5 steps:
 clean sets of points on the left and right lane lines. 
 4. Using cv2.fitLine() to find the line parameters for the two lane lines based on the clean sets of points.
 5. I calculated the two endpoints *(x1, y1)* and *(x2, y2)* of each lane line with a convention that: *y1 = height-1.* <br>
-![draw_lines_extrapolate](./img/Self_driving_Car_P1_Finding_Lanelines/solidYellowCurve2_output_extrapolate.jpg)
+![draw_lines_extrapolate](../img/Self_driving_Car_P1_Finding_Lanelines/solidYellowCurve2_output_extrapolate.jpg)
 
 Video results:
 1. White Lane detection: [https://youtu.be/BVatQbo-OSw](https://youtu.be/BVatQbo-OSw)
