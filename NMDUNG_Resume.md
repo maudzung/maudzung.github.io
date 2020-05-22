@@ -1,2 +1,2 @@
 Here is my resume
-[NGUYENMAUDUNG_resume](http://maudzung.github.io/docs/NGUYENMAUDUNG_CV.pdf)
+[NguyenMauDung_Resume](./docs/NguyenMauDung_Resume.pdf)
