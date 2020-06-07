@@ -15,4 +15,8 @@ I enrolled in a high school for gifted students, specializing in mathematics. Du
 in Vietnam Physics Olympiad for high school students. In 2011, I entered an honor program designed for talented engineers
  at Hanoi University of Science and Technology.
 
-Skills: [Python, C++, C , ROS, JavaScript], [Pytorch, Tensorflow, Keras]
+**Skills**: [Python, C++, C , ROS, JavaScript], [Pytorch, Tensorflow, Keras]
+
+**My resume**:
+- [1-page resume](./docs/NguyenMauDung_Resume.pdf)
+- [2-page resume](./docs/NguyenMauDung_Resume_202006.pdf)
